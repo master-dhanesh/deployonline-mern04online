@@ -2,11 +2,18 @@
 
 # dependencies
 /node_modules
+api/node_modules
 /.pnp
 .pnp.js
 
 # testing
 /coverage
+
+.env 
+api/.env
+
+package-lock.json
+api/package-lock.json
 
 # production
 /build
